@@ -1,0 +1,534 @@
+BODY {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+/*new css */
+
+TD {
+	FONT-SIZE: 9pt;
+	color:#000000;
+	font-family:arial;
+}
+/*new css end */
+
+/* delete 29/04/2010
+TD {
+	FONT-SIZE: 9pt;
+	color:#ffffff;
+	font-family:arial;
+}*/
+A:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:visited {
+	 TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+DIV {
+	FONT-SIZE: 9pt
+}
+
+/* new css*/
+.bodytext{  
+font-family:arial; font-size: 9pt; 
+font-style: normal; line-height: normal; 
+font-weight: normal; text-decoration: none; 
+color:#000000;
+
+}
+/*------------------------------------------------header--------------------*/
+
+div, ul, p{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+/*********************************************header***************************/
+body{
+	min-width:1350px;
+    overflow:auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background: #fff;
+    color: #000;
+    font: small/18px "ËÎÌו", Verdana, Helvetica, sans-serif;
+}
+ul#nav,ul#nav ul{
+    margin: 0 auto;
+    text-align:center;
+    padding: 0;
+    list-style: none;
+    background:#fff;
+    z-index:99;
+}
+ul#nav {
+    width:1060px;
+	text-align:center;
+    display:block;
+	font-weight:bold;
+    height:24px;
+    clear:both;
+	list-style-type:none;
+}
+ul#nav li {
+    position: relative;
+    z-index:999;
+    float:left;
+}
+ul#nav ul li{
+    display:block;
+}
+ul#nav ul {
+    width:200px;
+    height:auto;
+    position: absolute;
+    text-align:left;
+    left: 0px;
+    display: none;
+    border:solid 1px #697210;
+}
+
+ul#nav li.over a,ul#nav li:hover a{
+    border-color:#E2144A;
+    background: #fdd;
+    font-weight:bold;
+    color: #E2144A;
+}
+
+ul#nav li.over ul a,ul#nav li:hover ul a{
+    background:#fff;
+    font-weight:normal;
+    color:#777;
+}
+
+ul#nav li.over ul a:hover,ul#nav li:hover ul a:hover{
+    background:#fff;
+    font-weight:normal;
+    color: #E2144A;
+	/*color:#000000;*/
+    background: #fdd;
+    border-color:#E2144A;
+    font-weight:bold;
+}
+/* Styles for Menu Items */
+ul#nav a {
+    font-size:14px;
+    line-height:17px;
+    display: block;
+    padding:0 0 0 10px;
+    width:120px;
+    color: #777;
+    height:17px;
+    background: #fff;
+    border-left:solid 1px #fff;
+    border-top:solid 1px #fff;
+    border-right:solid 1px #fff;
+    border-bottom:solid 5px #697210;
+}
+ul#nav ul li{
+    width:200px;
+    border:0;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul#nav li { float: left; height: 17px; }
+* html ul#nav li a {  height: 17px; }
+/* End */
+ul#nav ul a { padding: 2px 0px 2px  10px;border:0;width:200px;     } /* Sub Menu Styles */
+ul#nav li:hover ul,ul#nav  li.over ul { display: block; } /* The magic */
+
+/***************header end*************************************************/
+
+
+/*------------------------------------------------footer--------------------*/
+#footerMain{
+	width:100%;
+	height:89px;
+	background:url(../images/footer_bg.gif) 0 0 repeat-x #454545;
+	padding:23px 0 0 0;
+	color:#fff;
+}
+#footer{
+	width:942px;
+	margin:0 auto;
+	position:relative;
+	height:89px;
+}
+#footer ul.botNav{
+	width:496px;
+	position:absolute;
+	left:-2px;
+	top:-3px;
+	list-style-type:none;
+}
+#footer ul.botNav li{
+	float:left;
+	font:normal 11px/26px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+}
+#footer ul.botNav li a{
+	padding:0 7px;
+	font:normal 11px/26px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+}
+#footer ul.botNav li a:hover{
+	text-decoration:underline;
+}
+#footer ul.botNav li a.one{
+	padding:0 7px 0 0;
+	font:normal 11px/26px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+}
+#footer ul.botNav li a.one:hover{
+	text-decoration:underline;
+}
+#footer p.copyright{
+	font:normal 11px/18px Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:626px;
+	top:30px;
+	color:#B2C931;
+	background-color:inherit;
+	width:241px;
+}
+#footer p.design1{
+	display:block;
+	width:206px;
+	height:21px;
+	padding:0;
+	position:absolute;
+	left:220px;
+	top:-10px;
+	font:bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#E0981B;
+	background-color:inherit;
+}
+#footer p.design2{
+	display:block;
+	width:206px;
+	height:21px;
+	padding:0;
+	position:absolute;
+	left:220px;
+	top:10px;
+	font:bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#E0981B;
+	background-color:inherit;
+}
+#footer p.design3{
+	display:block;
+	width:206px;
+	height:21px;
+	padding:0;
+	position:absolute;
+	left:220px;
+	top:30px;
+	font:bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#E0981B;
+	background-color:inherit;
+}
+#footer p.design4{
+	display:block;
+	width:206px;
+	height:21px;
+	padding:0;
+	position:absolute;
+	left:220px;
+	top:50px;
+	font: bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#E0981B;
+	background-color:inherit;
+}
+#footer p.design{
+	display:block;
+	width:206px;
+	height:21px;
+	padding:0;
+	position:absolute;
+	left:634px;
+	top:46px;
+	font:bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#B2C931;
+	background-color:inherit;
+}
+#footer p.design a.link{
+	font:bold 12px/21px Arial, Helvetica, sans-serif;
+	color:#B2C931;
+	background-color:inherit;
+	text-decoration:none;
+}
+#footer p.design a.link:hover{
+	color:#000;
+	background-color:#B2C931;
+}
+#footer a.xhtml{
+	background:url(../images/xhtml_bg.gif) 0 0 no-repeat;
+	width:95px;
+	height:23px;
+	float:left;
+	font:bold 11px/23px Arial, Helvetica, sans-serif;
+	color:#1C0206;
+	background-color:inherit;
+	text-decoration:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	position:absolute;
+	left:643px;
+	top:0;
+}
+#footer a.xhtml:hover{
+	color:#66731E;
+	background-color:inherit;
+}
+#footer a.css{
+	background:url(../images/xhtml_bg.gif) 0 0 no-repeat;
+	width:95px;
+	height:23px;
+	float:right;
+	font:bold 11px/23px Arial, Helvetica, sans-serif;
+	color:#1C0206;
+	background-color:inherit;
+	text-decoration:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	position:absolute;
+	left:747px;
+	top:0;
+}
+#footer a.css:hover{
+	color:#66731E;
+	background-color:inherit;
+}
+/*------------------------------------------------footer--------------------*/
+
+/*Table.bg_co TD
+{
+background-color:expression(this.sourceIndex%3==0?'#9FB7F6':'#B6C8F8');
+}*/
+
+.clear
+{
+clear:both;
+}
+
+.div_po
+{
+ position:relative;
+ left:50%;
+ margin-left:expression(-(this.offsetWidth/2)+"px");
+}
+
+/* new css end*/
+
+/* delete 29/04/2010
+.bodytext{  
+font-family:arial; font-size: 9pt; 
+font-style: normal; line-height: normal; 
+font-weight: normal; text-decoration: none; 
+color: #ffffff
+
+}*/
+.header1 
+{  
+font-family: arial; font-size: 12pt; 
+font-style: normal; line-height: normal; 
+font-weight: normal; text-decoration: none; 
+color: #ffffff
+}
+.header2 {
+font-family: arial; font-size: 10pt; 
+font-style: normal; line-height: normal; 
+font-weight: bold; text-decoration: none; 
+color: #000000
+}
+.copyrighttext {
+font-family: arial; font-size: 8pt; 
+font-style: normal; line-height: normal; 
+font-weight: normal; text-decoration: none; 
+color: #000000
+}
+.bold {  font-family: arial; 
+font-size: 8pt; 
+font-style: normal; line-height: normal; 
+font-weight: bold; 
+text-decoration: none; 
+color: #ffffff
+}
+li {
+list-style-image: url(images/bullet.gif); 
+background: #ffffff
+}
+.input {
+	font-family: Arial;
+	font-size: 12px;
+	color: #663300;
+	background-color: #CC9933;
+	width: 120px;
+	border: none #000000;
+	height: 18px;
+}
+
+.input2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	width:150px;
+}
+
+.submitcss {
+	font-family:arial; BORDER-RIGHT: #ff6600 3px outset; BORDER-TOP: #ffffcc 3px outset; BORDER-LEFT: #ffffff 1px outset; COLOR:#ffffff; BORDER-BOTTOM: #ff3300 1px outset; HEIGHT: 20px; WIDTH:80PX; BACKGROUND-COLOR: #ba4c32;
+}
+.submitcss{
+	PADDING: 3px;
+	MIN-HEIGHT: 25px; 
+	MIN-WIDTH:80PX;
+    background-color:#000;
+    font-family:arial; 
+	BORDER-RIGHT: #4f4f4f 3px outset; 
+	BORDER-TOP: #ffffcc 3px outset; 
+	BORDER-LEFT: #ffffff 1px outset; 
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.submitcss:hover {
+}
+.submitcss:active {
+    position:relative;
+    top:1px;
+	background-color:#ff3300;
+}
+
+.form1 tr label, .form2 tr label, .form3 tr label{
+	text-align:left;
+	font-size:15px;
+}
+.form1 tr ,  .form3 tr {
+	margin-top:10px;
+	float:left;
+}
+
+
+/* delete 3/05/2010
+.listing2{
+background-color:#510000;
+	float:center;
+	width:380px;
+	border-left:1px solid #BBBBBB;
+	border-bottom:1px solid #BBBBBB;	
+	border-right:1px solid #BBBBBB;
+	border-top:1px solid #BBBBBB;
+	padding:10px;
+}*/
+
+/* ajouter by liu pour reservation 26/05/2010*/
+.avis_word1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+}
+
+.avis_word2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #C05F00;
+}
+/********end******************************/
+
+.listing2{
+	background-color:;
+	float:center;
+	border-left:1px solid #BBBBBB;
+	border-bottom:1px solid #BBBBBB;	
+	border-right:1px solid #BBBBBB;
+	border-top:1px solid #BBBBBB;
+	padding:10px;
+}
+
+.rubriqueListing{
+	/*color:white;*/
+	background:#fffdfa url(../images/th.gif) 0 0 repeat-x;
+	color:#818181;	
+	border-top:1px solid #99770F;
+	text-align:center;
+	font-family:Arial;
+	font-size:16px;	
+	font-weight:bold;
+}
+
+.zoneListing{
+	width:800px;
+	border:0px;
+	border-collapse:0px;
+	border-spacing:0px;
+	border-color:grey;
+}
+
+.zoneListing tr{
+	height:35px;
+}
+
+.elementListing{
+	border-top:1px solid #99770F;
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.elementListingSousF{
+	border-bottom:1px solid #510000;
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.titreListing{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #99770F;
+}
+.Avis_Boite_Accueil {
+	BORDER-RIGHT: #000000 1px dashed; PADDING-RIGHT: 2px; BORDER-TOP: #000000 1px dashed; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000000 1px dashed; PADDING-TOP: 2px; BORDER-BOTTOM: #000000 1px dashed; BACKGROUND-COLOR: #ddf7f7
+}
+.avis {
+	BORDER-RIGHT: #A0960E 1px dashed; PADDING-RIGHT: 2px; BORDER-TOP: #A0960E 1px dashed; PADDING-LEFT: 2px; FONT-SIZE: 13px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 2px; BORDER-LEFT: #A0960E 1px dashed; WIDTH: 98%; PADDING-TOP: 2px; BORDER-BOTTOM: #A0960E 1px dashed; FONT-FAMILY: arial; BACKGROUND-COLOR: #9999FF
+}
+.avis-aff-note {
+	FONT-SIZE: 11px; COLOR: #000055; FONT-FAMILY: arial
+}
